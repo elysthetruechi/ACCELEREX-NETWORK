@@ -1,0 +1,174 @@
+@media (max-width: 420px) {
+    body {
+        background: white;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .max-width {
+    max-width: 1240px;
+    padding:0;
+    margin: 0;
+      }
+      section {
+        padding: 20px 0;
+      }
+      .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 10px 0;
+        transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar.sticky {
+        padding: 30px 0;
+        background:black;
+      }
+      .navbar .logo a {
+        position: relative;
+        left:80px ;
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        transition: color 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .navbar .menu li {
+        position: relative;
+        right: 5px;
+        list-style: none;
+        display: inline-block;
+      }
+      .navbar .menu .date li a {
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 25px;
+        padding-left: 20px;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .date li a i{
+        color: black;
+      position: relative;
+      right:38px;
+      font-size: 18px;
+      }
+      .navbar .menu .oth li a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:297px;
+        bottom: 20px;
+        font-weight: 700;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .oth li a i{
+        color: black;
+        display: flex;
+        font-size: 15px;
+        margin: 1px;
+        font-weight: 800;
+        justify-content: space-between;
+      }
+    
+      .navbar .menu li a:hover,
+      .navbar .logo a:hover {
+        color:#029dd1;
+      }
+      .menu-btn {
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+      }
+      .body img{
+        width: 164px;
+        height: 42px;
+        align-items: center;
+        position: relative;
+        top: 90px;
+        left: 105px;
+      }
+      .neck{
+        text-align: center;
+      }
+      .neck img{
+        position:absolute;
+        width: 256px;
+        height: 256px;
+        top: 164px;
+        left: 58px;
+      }
+      .neck h3{
+        position: relative;
+        top:387px;
+        left: 73px;
+        font-size: 21px;
+        width: 229px;
+        height: 28px;
+        line-height: 27.9px;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .neck p{
+        position: relative;
+       line-height:18.16px;  
+        top: 395px;
+        left: 82px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        width: 207px;
+        height: 36px;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .middle a{
+        display:block;
+        text-align: center;
+        background:transparent;
+        color: rgba(204, 68, 56, 1);
+        position: relative;
+        top:425px;
+        left: 30.5px;
+        width: 303px;
+        z-index:100;
+        font-size: 14px;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin-top: 15px;
+        height: 45px;
+        border: 1px solid rgba(204, 68, 56, 1);
+        transition: all 0.3s ease;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .middle a:hover{
+        background:rgba(204, 68, 56, 1);
+        color: #fff;
+      }
+      .next{
+        position: relative;
+        width: 201px;
+        height: 18px;
+        top: 437px;
+        left: 82px;
+        font-size:14px; 
+        font-weight:700;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .next a{
+        color:rgba(204, 68, 56, 1);
+      }
+    }
