@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="selectpart3.css">
+    <link rel="stylesheet" href="onemorestep.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <title>Accelerex</title>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -41,15 +41,28 @@
             <a href="second.html"><img src="Group 11785.png" alt=""></a>
         </div>
         <div class="big">
-            <h4>Select Partners</h4>
-            <p>Choose a super agent from our registered agents.</p>
+            <h4>One more step to go </h4>
+            <p>Setup your password</p>
         </div>
-        <div class="new">
-            <a href=""><p>Select Partners</p>
-            <img src="Stroke 4.png" alt=""></a>
-        </div>
+        <form>
+            <div class="input-group">
+            <input type="text" id="password" required>
+            <label for="password">Create Password</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Confirm Password</label>
+            </div>
+        </form>
         <div class="middle">
-            <a href="contactdeet.html">Proceed</a> 
+            <a href="otp.html">Proceed</a> 
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                const $input =$("input");
+                $input.attr("type", "password")
+            })
+        </script>
     </body>
 </html>
