@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="otp.css">
+    <link rel="stylesheet" href="yemi.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <title>Accelerex</title>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -37,35 +37,32 @@
                 </div>
             </div>
         </nav>
-        <div class="fantasma">
-            <img src="Rectangle 9 (1).png" alt="">
-        </div>
         <div class="click">
             <a href="second.html"><img src="Group 11785.png" alt=""></a>
         </div>
         <div class="big">
-            <h4>Enter OTP</h4>
-            <p>Enter a 4 digit verification code sent to your number</p>
+            <h4>Welcome Yemi👋</h4>
+            <p>Enter login details fot POS account</p>
         </div>
         <form>
-            <div class="row">
             <div class="input-group">
-            <input type="text" id="name" required>
+            <input type="text" id="email" required>
+            <label for="password">User ID</label>
             </div>
             <div class="input-group">
                 <input type="text" id="name" required>
-                </div>
-                <div class="input-group">
-                    <input type="text" id="name" required>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id="name" required>
-                        </div>
+                <label for="name">Password</label>
             </div>
         </form>
-        <div class="code"><p> Resend code</p></div>
-        <div class="win">
-            <a href="success.html"><img src="Group 33516.png" alt=""></a>
+        <div class="middle">
+            <a href="yemi.html">Login</a> 
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                const $input =$("input");
+                $input.attr("type", "password")
+            })
+        </script>
     </body>
 </html>
