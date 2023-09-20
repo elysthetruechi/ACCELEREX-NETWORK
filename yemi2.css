@@ -109,12 +109,31 @@
       }
       .box{
         width: 330px;
-        height: 286px;
+        height: 299px;
         top: 110px;
         left: 15px;
         border-radius: 10px;
         position: relative;
         background: white;
+      }
+      .box img{
+        width: 46px;
+        height: 46px;
+        position: relative;
+        top: 29px;
+        left: 145px;
+      }
+      .box h4{
+        width: 152px;
+        height: 20px;
+        position: relative;
+        top: 36px;
+        left: 100px;
+        text-align: center;
+        font-size: 17px;
+        line-height: 20px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(85, 85, 85, 0.6);
       }
       .big h4{
     width: 244px;;
@@ -126,6 +145,53 @@
     position: relative;
     line-height: 30.33px;
     font-family: 'Open Sans', sans-serif;
+      }
+      .box p{
+        width: 251px;
+        height: 51px;
+        position: relative;
+        top: 46px;
+        left: 42px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 17px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(85, 85, 85, 0.6);
+      }
+      .box a{
+        display:block;
+        text-align: center;
+        background: rgba(204, 68, 56, 1);
+        color:#fff;
+        position: relative;
+        top:58px;
+        left: 68px;
+        width: 205px;
+        z-index:100;
+        padding: 16px 25px;
+        border-radius: 5px;
+        margin-top: 15px;
+        height: 45px;
+        font-size: 14px;
+        border: 1px solid rgba(204, 68, 56, 1);
+        transition: all 0.3s ease;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .box a:hover{
+        background:transparent;
+        color: rgba(204, 68, 56, 1) ;
+      }
+      .box p1{
+        width: 101px;
+        height: 17px;
+        position: relative;
+        font-size: 16px;
+        line-height: 16.98px;
+        top: 80px;
+        left: 109px;
+        font-weight: 550;
+        color: rgba(89, 92, 95, 1);
+        font-family: 'Open Sans', sans-serif;
       }
       .big p{
         font-weight:500;
