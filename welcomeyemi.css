@@ -199,4 +199,9 @@
         color: rgba(204, 68, 56, 1);
         font-family: 'Open Sans', sans-serif;
       }
+      .eight{
+        border-bottom: 1px solid grey;
+        position:relative;
+        top: 290px;
+      }
     }
