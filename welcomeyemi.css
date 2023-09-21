@@ -169,4 +169,34 @@
         background:rgba(255, 255, 255, 1);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
       }
+      .box ul{
+        list-style: none;
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .box ul li{
+        width: 100%;
+      }
+      .trans{
+        position:relative;
+        top: 280px;
+        left: 20px;
+      }
+      .trans p{
+        font-size: 14px;
+        line-height: 16.8px;
+        font-weight: 400px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(68, 68, 68,1);
+      }
+      .trans p span{
+        left: 120px;
+        position: relative;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: rgba(204, 68, 56, 1);
+        font-family: 'Open Sans', sans-serif;
+      }
     }
