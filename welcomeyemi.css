@@ -150,6 +150,7 @@
         left: 300px;
         bottom: 58px;
         font-size: 35px;
+        cursor: pointer;
       }
       .lime .p .icon img{
         position: relative;
