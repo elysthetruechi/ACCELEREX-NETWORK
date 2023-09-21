@@ -181,8 +181,8 @@
       }
       .trans{
         position:relative;
-        top: 280px;
-        left: 20px;
+        top: 270px;
+        left: 15px;
       }
       .trans p{
         font-size: 14px;
@@ -192,7 +192,7 @@
         color: rgba(68, 68, 68,1);
       }
       .trans p span{
-        left: 120px;
+        left: 110px;
         position: relative;
         font-size: 14px;
         line-height: 16.8px;
@@ -200,8 +200,64 @@
         font-family: 'Open Sans', sans-serif;
       }
       .eight{
-        border-bottom: 1px solid grey;
         position:relative;
         top: 290px;
+        height: 60px;
       }
-    }
+.drake{
+  padding-bottom: 8px;
+  border-bottom: 1px solid grey;
+}
+.drake h3{
+  position: relative;
+  left: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.drake h3 span{
+  position: relative;
+  left: 150px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.drake p{
+  position: relative;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+.drake p p1{
+  position: relative;
+  left: 135px;
+  font-size: 12px;
+  color: rgba(103, 193, 95, 1);
+  font-family: 'Open Sans', sans-serif;
+}
+.drake p p2{
+  position: relative;
+  left: 135px;
+  font-size: 12px;
+  color:rgba(228, 177, 45, 1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.drake h3 span1{
+  position: relative;
+  left: 170px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.drake h3 span2{
+  position: relative;
+  left: 189px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.drake h3 span3{
+  position: relative;
+  left: 210px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+}
