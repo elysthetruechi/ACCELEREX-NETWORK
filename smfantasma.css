@@ -265,12 +265,12 @@
     .next .bix ul li{
         line-height:39.41px;
     }
-    .next .bix ul li .rex{
+    .next .bix .rex ul li {
         position: fixed;
         margin-bottom: 10px;
         width: 320px;
         height: 62px;
-        border: 1px solid rgba(246, 246, 246, 1);
+        border: 1px solid rgb(181, 46, 46);
         border-radius: 5px;
         background: rgba(246, 246, 246, 1);
     }
@@ -287,12 +287,12 @@
         font-size: 16px;
         text-align: center;
         position: relative;
-        top: 15px;
+        top: 24px;
         left: 28px;
         font-family: 'Open Sans', sans-serif;
         line-height:19.41px;
     }
-    .next .bix h4{
+    .next h4{
         text-align: center;
         font-size: 16px;
         position: relative;
