@@ -1,6 +1,7 @@
 @media (max-width: 420px) {
     body {
         background: white;
+        display: flex;
       }
       * {
         margin: 0;
@@ -107,11 +108,11 @@
       .big h4{
     width: 207px;;
     height: 30px;
-    top: 10px;
+    top: 50px;
     left: 120px;
     font-weight: 600;
     font-size: 20px;
-    position: relative;
+    position: fixed;
     line-height: 30.33px;
     font-family: 'Open Sans', sans-serif;
       }
@@ -123,7 +124,7 @@
         position:fixed;
         width: 100%;
         border: 2px solid transparent;
-        margin-top: 30px;
+        margin-top: 100px;
         height: 677px;
         border-radius: 15px;
         background: white;
@@ -133,7 +134,7 @@
         text-align: center;
         position: relative;
         text-align: center;
-        top: 50px;
+        top: 10px;
         font-family: 'Open Sans', sans-serif;
     }
     .next .key img{
@@ -143,7 +144,60 @@
     }
     .next .key p{
         position: relative;
-        top: 15px;
+        top: 10px;
         font-size: 16px;
+    }
+     .numpad{
+        display: flex;
+        justify-content: center;
+        background: white;
+        position: relative;
+        top: 30px;
+        height: 285px;
+    }
+   /* .numpad .disp input{
+width: 300px;
+padding: 20px;
+outline: none;
+border: none;
+background: white;
+text-align: center;
+color:#fff;
+font-size:2em;
+    }*/
+.numpad .nums  div{
+display: flex;
+
+}
+.numpad .nums .r div{
+display:flex;
+width: 60px;
+height: 60px;
+margin: 25px;
+border: 1px solid red;
+border-radius: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.numpad .nums .r div1{
+    display:flex;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+    .nums div span{
+        color: red;
+        font-size: 18px;
+    }
+    .next .bel img{
+       position: relative;
+       top: 23px;
+       width: 99px;
+       height: 9px; 
     }
     }
