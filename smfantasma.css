@@ -100,14 +100,14 @@
         width: 38px;
         height: 38px;
         position: relative;
-        top: 76px;
+        top: 46px;
         left: 30px; 
         transition: all 0.5s ease;
       }
       .big h4{
     width: 207px;;
     height: 30px;
-    top: 40px;
+    top: 10px;
     left: 120px;
     font-weight: 600;
     font-size: 20px;
@@ -119,8 +119,8 @@
       form{
         width:100%;
         max-width: 400px;
-        position: relative;
-        top: 130px;
+        position: fixed;
+        top: 210px;
         left: 20px;
       }
       .input-group{
@@ -176,13 +176,13 @@
         margin-left:280px;
         bottom: 35px;
       }
-      .middle a{
+      .bix a{
         display:block;
         text-align: center;
         background: rgba(204, 68, 56, 1);
         color:#fff;
-        position: relative;
-        top:265px;
+        position:fixed;
+        top:630px;
         left: 30.5px;
         width: 303px;
         z-index:100;
@@ -195,16 +195,16 @@
         transition: all 0.3s ease;
         font-family: 'Open Sans', sans-serif;
       }
-      .middle a:hover{
+      .bix a:hover{
         background:transparent;
         color: rgba(204, 68, 56, 1) ;
       }
       firm{
         width:100px;
         max-width: 400px;
-        position: relative;
-        top: 70px;
-        left: 20px;
+        position:fixed;
+        top: 80px;
+        left: 30px;
       }
       .inpit-group{
         margin-bottom: 30px;
@@ -252,52 +252,78 @@
         position:fixed;
         width: 100%;
         border: 2px solid transparent;
-        margin-top: 100px;
-        height: 460px;
+        margin-top: 310px;
+        height: 340px;
         border-radius: 15px;
         background: white;
         z-index: 100;
     }
-    .next .bix ul{
-        position: relative;
-        top: 20px;
-    }
-    .next .bix ul li{
-        line-height:39.41px;
-    }
-    .next .bix .rex ul li {
-        position: fixed;
-        margin-bottom: 10px;
-        width: 320px;
-        height: 62px;
-        border: 1px solid rgb(181, 46, 46);
-        border-radius: 5px;
-        background: rgba(246, 246, 246, 1);
-    }
-    .next .bix ul li img{
-        width:17px;
-        height:17px;
-        position: relative;
-        top: 28px;
-        left: 20px;
-        line-height:19.41px;
-        
-    }
-    .next .bix ul li span{
-        font-size: 16px;
-        text-align: center;
-        position: relative;
-        top: 24px;
-        left: 28px;
-        font-family: 'Open Sans', sans-serif;
-        line-height:19.41px;
-    }
-    .next h4{
-        text-align: center;
-        font-size: 16px;
-        position: relative;
-        top: 15px;
-        color: black;
-        font-family: 'Open Sans', sans-serif;
-    }
+   .next .bix .sth{
+    position: relative;
+    left: 17px;
+    top: 55px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 16.8px;
+    background: rgba(246, 246, 246, 1);
+   }
+   .next h3{
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: 15px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.next .bix .sth p{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 14px;
+  line-height: 14.4px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+.next .bix .sth p span{
+  position: fixed;
+  margin-left:120px;
+  margin-top: 10px;
+  width: 22px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 50%;
+  line-height: 14.4px;
+}
+ .def img{
+  position: fixed;
+  margin-left:282px;
+  margin-top: 9px;
+  width: 17px;
+  height: 14px;
+  border-radius: 50%;
+  line-height: 14.4px;
+}
+.next .bix .sth p span img{
+  position: fixed;
+  margin-left:120px;
+  margin-top: 10px;
+  width: 30px;
+  height: 18px;
+  border: 1px solid red;
+  border-radius: 50%;
+  line-height: 14.4px;
+ 
+}
+.next .bix .sth h4{
+  left: 10px;
+  position: relative;
+  top: 10px;
+  height: 14px;
+  line-height: 16.8px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
     }
