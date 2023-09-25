@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="keypad2.css">
+    <link rel="stylesheet" href="smgoodfantasma.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <title>Accelerex</title>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -18,7 +18,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
   </style>
-    <body class="flex">
+    <body>
         <nav class="navbar">
             <div class="max-width">
                 <ul class="menu">
@@ -46,41 +46,34 @@
         <div class="big">
             <h4>Send Money</h4>
         </div>
+        <firm>
+            <div class="inpit-group">
+            <input type="number" id="password" required>
+            <label for="password">₦0.00</label>
+            </div>
+        </firm>
+        <form>
+            <div class="input-group">
+            <input type="text" id="password" required>
+            <label for="password">Select Debit account</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Select Credit Account</label>
+            </div>
+        </form>
         <div class="next">
-        <div class="key"><img src="key.png" alt="">
-        <p>Confirm Transaction PIN to <br> continue</p>
-        <div class="bel"><img src="shouldincase.png" alt=""></div>
+           <img src="Tick Square.png" alt="">
+           <p>Transaction PIN set <br> successfully</p>
+                <a href="keypad.html">Continue</a> 
+         </div>
     </div>
-    <div class="numpad">
-        <div class="disp">
-<!--<input type="text">-->
-        </div>
-        <div class="nums">
-            <div class="flex r r1">
-                <div><span>1</span></div>
-                <div><span>2</span></div>
-                <div><span>3</span></div>
-            </div>
-            <div class="flex r r2">
-                <div><span>4</span></div>
-                <div><span>5</span></div>
-                <div><span>6</span></div>
-            </div>
-            <div class="flex r r3">
-                <div><span>7</span></div>
-                <div><span>8</span></div>
-                <div><span>9</span></div>
-            </div>
-            <div class="flex r r4">
-                <div1><span></span></div1>
-                <div><span>0</span></div>
-                <div><span>x</span></div>
-            </div>
-        </div>
-        </div>
-        <div class="rest">
-            <a href="smgoodfantasma.html"><p><img src="ShieldCheck.png" alt="">This keeps your account safe</p></a>
-        </div>
-        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                const $input =$("input");
+                $input.attr("type", "password")
+            })
+        </script>
     </body>
 </html>

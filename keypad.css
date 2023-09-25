@@ -174,8 +174,10 @@ display:flex;
 width: 60px;
 height: 60px;
 margin: 23px;
-border: 1px solid red;
+background: rgba(242, 96, 93, 0.04);
+border: 1px solid transparent;
 border-radius: 50px;
+
 justify-content: center;
 align-items: center;
 }
