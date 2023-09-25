@@ -130,8 +130,8 @@
       form{
         width:100%;
         max-width: 400px;
-        position: relative;
-        top: 120px;
+        position: fixed;
+        top: 240px;
         left: 20px;
       }
       .input-group{
@@ -190,9 +190,9 @@
         text-align: center;
         background: rgba(204, 68, 56, 1);
         color:#fff;
-        position: relative;
-        top:95px;
-        left: 30.5px;
+        position:fixed;
+        top:725px;
+        left: 42px;
         width: 303px;
         z-index:100;
         font-size: 14px;

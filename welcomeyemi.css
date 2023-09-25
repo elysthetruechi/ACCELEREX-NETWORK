@@ -97,7 +97,6 @@
         display: none;
       }
       .lime{
-        width: 100%;
         position: fixed;
         color: rgba(255, 255, 255, 1);
         font-family: 'Open Sans', sans-serif;
@@ -161,7 +160,7 @@
       .box{
         width: 264px;
         height: 89px;
-        position: relative;
+        position: fixed;
         top: 235px;
         left: 55px;
         border: 2px solid transparent;
@@ -211,8 +210,8 @@
       }
       
       .trans{
-        position:relative;
-        top: 262px;
+        position:fixed;
+        top: 332px;
         left: 15px;
       }
       .trans p{
@@ -223,7 +222,7 @@
         color: rgba(68, 68, 68,1);
       }
       .trans p span{
-        left: 105px;
+        left: 118px;
         position: relative;
         font-size: 14px;
         line-height: 16.8px;
@@ -231,12 +230,15 @@
         font-family: 'Open Sans', sans-serif;
       }
       .eight{
-        position:relative;
-        top: 270px;
+      position: relative;
+        top: 359px;
         height: 60px;
+        left: 5px;
       }
 .drake{
   padding-bottom: 8px;
+  position:fixed;
+  width: 700px;
   border-bottom: 1px solid grey;
 }
 .drake h3{
@@ -293,10 +295,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 .bex{
-  width:375px;
+  width:398px;
   height: 75px;
-  position: relative;
-  top: 233px;
+  position: fixed;
+  top: 648px;
   border: 2px solid transparent;
   border-radius: 7px;
   background:rgba(255, 255, 255, 1);
@@ -307,7 +309,7 @@
   display: flex;
   position: relative;
   top: 20px;
-  left: 15px;
+  left: 25px;
 }
 .bex ul li{
   width: 90px;

@@ -128,7 +128,7 @@
         height: 20px;
         position: relative;
         top: 36px;
-        left: 100px;
+        left: 88px;
         text-align: center;
         font-size: 17px;
         line-height: 20px;
@@ -141,7 +141,7 @@
         height: 51px;
         position: relative;
         top: 46px;
-        left: 42px;
+        left: 39px;
         text-align: center;
         font-size: 13px;
         line-height: 17px;
@@ -162,7 +162,7 @@
         border-radius: 5px;
         margin-top: 15px;
         height: 45px;
-        font-size: 14px;
+        font-size: 15px;
         border: 1px solid rgba(204, 68, 56, 1);
         transition: all 0.3s ease;
         font-family: 'Open Sans', sans-serif;

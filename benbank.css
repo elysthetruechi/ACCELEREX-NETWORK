@@ -87,6 +87,7 @@
       }
       .fantasma{
         position: fixed;
+
       }
     
       .navbar .menu li a:hover,
@@ -133,8 +134,8 @@
       .new{
         width: 320px;
         height: 47px;
-        position: relative;
-        top: 225px;
+        position:fixed;
+        top: 305px;
         left: 26px;
         border-radius: 5px;
         border: 1px solid rgba(85, 85, 85, 0.5);
@@ -181,8 +182,8 @@
       .bottom{
         width:362px;
         height: 298px;
-        position:relative;
-        top: 260px;
+        position:fixed;
+        top: 440px;
         border: 2px solid transparent;
         border-radius:25px;
         background: rgba(255, 255, 255, 1);

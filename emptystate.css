@@ -161,7 +161,7 @@
       .box{
         width: 264px;
         height: 89px;
-        position: relative;
+        position: fixed;
         top: 235px;
         left: 55px;
         border: 2px solid transparent;
@@ -211,8 +211,8 @@
       }
       
       .trans{
-        position:relative;
-        top: 262px;
+        position:fixed;
+        top: 342px;
         left: 15px;
       }
       .trans p{
@@ -223,7 +223,7 @@
         color: rgba(68, 68, 68,1);
       }
       .trans p span{
-        left: 105px;
+        left: 118px;
         position: relative;
         font-size: 14px;
         line-height: 16.8px;
@@ -292,33 +292,17 @@
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
-.bex{
-  width:375px;
-  height: 75px;
-  position: relative;
-  top: 350px;
-  border: 2px solid transparent;
-  border-radius: 7px;
-  background:rgba(255, 255, 255, 1);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-}
-.bex ul{
-  list-style: none;
-  display: flex;
-  position: relative;
-  top: 20px;
-  left: 15px;
-}
+
 .booradley img{
     position: relative;
-    top: 300px;
+    top: 400px;
     width: 130px;
     height: 130px;
     left: 110px;
 }
 .booradley h4{
     height: 19px;
-    top:310px;
+    top:400px;
     position: relative;
     font-size: 16px;
     right: 5px;
@@ -329,7 +313,7 @@
 }
 .booradley p{
     height: 19px;
-    top:315px;
+    top:410px;
     position: relative;
     font-size: 14px;
     right: 5px;
@@ -338,18 +322,35 @@
     color: rgba(0, 0, 0, 0.6);
     font-family: 'Open Sans', sans-serif;
 }
-.bex ul li{
+.bex{
+  width:398px;
+  height: 75px;
+  position: fixed;
+  top: 648px;
+  border: 2px solid transparent;
+  border-radius: 7px;
+  background:rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  }
+  .bex ul{
+  list-style: none;
+  display: flex;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  }
+  .bex ul li{
   width: 90px;
   position: relative;
   left: 16px;
-}
-.bex img{
+  }
+  .bex img{
   width: 17.83px;
   height: 17.83px;
   top: 1.67px;
   left: 2.08px;
-}
-.bex ul li span{
+  }
+  .bex ul li span{
   position: relative;
   font-family: 'Open Sans', sans-serif;
   display: flex;
@@ -357,8 +358,30 @@
   right: 8px;
   font-size: 12px;
   color: rgba(32, 14, 50, 1);
+  
+  }
+  .bex ul li span0{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  bottom: 10px;
+  right: 23px;
+  font-size: 12px;
+  color: rgba(32, 14, 50, 1);
+  
+  }
+  .bex ul li spane{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  bottom: 10px;
+  right: 6px;
+  font-size: 11px;
+  color: rgba(32, 14, 50, 1);
+  
+  }
+  
 
-}
 .bex ul li span0{
   position: relative;
   font-family: 'Open Sans', sans-serif;

@@ -134,9 +134,9 @@
       .new{
         width: 320px;
         height: 47px;
-        position: relative;
-        top: 225px;
-        left: 26px;
+        position: fixed;
+        top: 325px;
+        left: 22px;
         border-radius: 5px;
         border: 1px solid rgba(85, 85, 85, 0.5);
       }
@@ -180,10 +180,10 @@
         color: rgba(204, 68, 56, 1) ;
       }
       .bottom{
-        width:362px;
+        width:365px;
         height: 236px;
-        position:relative;
-        top: 322px;
+        position:fixed;
+        top: 487px;
         border: 2px solid transparent;
         border-radius:25px;
         background: rgba(255, 255, 255, 1);
@@ -208,10 +208,10 @@
         font-family: 'Open Sans', sans-serif;
       }
       .game a{
-        width: 58px;
+        width: 68px;
         height: 17px;
-        position: relative;
-        top: 280px;
+        position: fixed;
+        top: 650px;
         left: 145px;
         font-size:14px;
         font-family: 'Open Sans', sans-serif;

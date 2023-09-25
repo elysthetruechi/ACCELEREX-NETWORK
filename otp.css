@@ -129,8 +129,8 @@
       }
       form{
         width: 220px;
-        position: relative;
-        top: 140px;
+        position:fixed;
+        top: 240px;
         left: 70px;
       }
       .input-group{
@@ -152,11 +152,10 @@
       }
      .fantasma{
         position: fixed;
-        
      }
       .code{
-        position: relative;
-        top: 145px;
+        position: fixed;
+        top: 345px;
         left: 145px;
         font-size: 15px;
         font-family: 'Open Sans', sans-serif;
@@ -166,7 +165,7 @@
         width: 110px;
         height: 108px;
         position: relative;
-        top: 112px;
+        top: 212px;
         left: 133px;
       }
     }
