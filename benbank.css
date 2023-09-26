@@ -109,53 +109,53 @@
         transition: all 0.5s ease;
       }
       .big h4{
-    width: 207px;;
-    height: 30px;
-    top: 173px;
-    left: 30px;
-    font-weight: 600;
-    font-size: 23.2px;
-    position: relative;
-    line-height: 30.33px;
-    font-family: 'Open Sans', sans-serif;
-      }
-      .big p{
-        font-weight:500;
-        width: 272px;
-        height: 36px;
-        top: 180px;
+        width: 207px;;
+        height: 30px;
+        top: 133px;
         left: 30px;
-        font-size: 15px;
+        font-weight: 600;
+        font-size: 23.2px;
         position: relative;
-        line-height: 18.2px;
+        line-height: 30.33px;
         font-family: 'Open Sans', sans-serif;
-        color: rgba(85, 85, 85, 0.5);
-      }
-      .new{
-        width: 320px;
-        height: 47px;
-        position:fixed;
-        top: 305px;
-        left: 26px;
-        border-radius: 5px;
-        border: 1px solid rgba(85, 85, 85, 0.5);
-      }
-      .new a p{
-        position: relative;
-        left:19px;
-        top: 15px;
-        height: 17px;
-        font-size: 14px;
-        color:rgba(85, 85, 85, 0.5);
-        font-family: 'Open Sans', sans-serif;
-      }
-      .new a img{
-        position: relative;
-        left: 300px;
-        width: 10px;
-        height: 5px;
-      }
-      
+          }
+          .big p{
+            font-weight:500;
+            width: 272px;
+            height: 36px;
+            top: 150px;
+            left: 30px;
+            font-size: 15px;
+            position: relative;
+            line-height: 18.2px;
+            font-family: 'Open Sans', sans-serif;
+            color: rgba(85, 85, 85, 0.5);
+          }
+          .new{
+            width: 320px;
+            height: 47px;
+            position: relative;
+            top: 205px;
+            left: 26px;
+            border-radius: 5px;
+            border: 1px solid rgba(85, 85, 85, 0.5);
+          }
+          .new a p{
+            position: relative;
+            left:19px;
+            top: 15px;
+            height: 17px;
+            font-size: 14px;
+            color:rgba(85, 85, 85, 0.5);
+            font-family: 'Open Sans', sans-serif;
+          }
+          .new a img{
+            position: relative;
+            left: 280px;
+            width: 10px;
+            height: 5px;
+          }
+          
       .middle a{
         display:block;
         text-align: center;
@@ -211,6 +211,7 @@
       .bottom ul li p{
         position: relative;
         top: 6px;
+        right: 10px;
         font-size: 14px;
         font-family: 'Open Sans', sans-serif;
       }
@@ -223,6 +224,14 @@
         font-size:14px;
         font-family: 'Open Sans', sans-serif;
         color:rgba(204, 68, 56, 1);
+      }
+       .brow{
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        right: 40px;
+        bottom: 16px;
+        
       }
     }
    

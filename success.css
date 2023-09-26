@@ -143,13 +143,13 @@
         background: rgba(204, 68, 56, 1);
         color:#fff;
         position: relative;
-        top:95px;
+        top:195px;
         left:20px;
         width: 320px;
         z-index:100;
         font-size: 16px;
         padding: 12px 20px;
-        border-radius: 5px;
+        border-radius: 8px;
         margin-top: 15px;
         height: 47px;
         border: 1px solid rgba(204, 68, 56, 1);

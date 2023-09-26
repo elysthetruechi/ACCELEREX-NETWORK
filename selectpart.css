@@ -107,7 +107,7 @@
       .big h4{
     width: 207px;;
     height: 30px;
-    top: 173px;
+    top: 133px;
     left: 30px;
     font-weight: 600;
     font-size: 23.2px;
@@ -119,7 +119,7 @@
         font-weight:500;
         width: 272px;
         height: 36px;
-        top: 180px;
+        top: 150px;
         left: 30px;
         font-size: 15px;
         position: relative;
@@ -131,7 +131,7 @@
         width: 320px;
         height: 47px;
         position: relative;
-        top: 225px;
+        top: 205px;
         left: 26px;
         border-radius: 5px;
         border: 1px solid rgba(85, 85, 85, 0.5);
@@ -147,7 +147,7 @@
       }
       .new a img{
         position: relative;
-        left: 300px;
+        left: 280px;
         width: 10px;
         height: 5px;
       }
@@ -164,7 +164,7 @@
         z-index:100;
         font-size: 14px;
         padding: 12px 20px;
-        border-radius: 5px;
+        border-radius: 8px;
         margin-top: 15px;
         height: 45px;
         border: 1px solid rgba(204, 68, 56, 1);

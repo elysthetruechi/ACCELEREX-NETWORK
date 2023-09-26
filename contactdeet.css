@@ -140,9 +140,9 @@
       }
       input{
         width: 90%;
-        padding: 17px;
+        padding: 15px;
         outline: 0;
-        border: 1px solid black;
+        border: 1px solid rgba(54, 54, 54, 0.49);
         border-radius:5px;
         background: transparent;
         font-family: 'Open Sans', sans-serif;
@@ -152,6 +152,20 @@
         position: absolute;
         left: 19px;
         top: 5px;
+        padding: 10px;
+        color: black;
+        cursor: text;
+        font-size: 14px;
+        color: rgba(85, 85, 85, 0.5);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        transition: 0.2s;
+      }
+      labeli{
+        height: 100%;
+        position: absolute;
+        left: 19px;
+        top: 0px;
         padding: 10px;
         color: black;
         cursor: text;
@@ -178,12 +192,12 @@
       .row .input-group{
         flex-basis: 45%;
       }
-      form .grow img{
+      form labeli span img{
         width: 20px;
         height: 20px;
         position: relative;
-        margin-left:280px;
-        bottom: 35px;
+        margin-left:200px;
+        bottom: 0px;
       }
       .middle a{
         display:block;
@@ -191,13 +205,13 @@
         background: rgba(204, 68, 56, 1);
         color:#fff;
         position:fixed;
-        top:649px;
+        top:629px;
         left: 30px;
         width: 303px;
         z-index:100;
         font-size: 14px;
         padding: 12px 20px;
-        border-radius: 5px;
+        border-radius: 8px;
         margin-top: 15px;
         height: 40px;
         border: 1px solid rgba(204, 68, 56, 1);
