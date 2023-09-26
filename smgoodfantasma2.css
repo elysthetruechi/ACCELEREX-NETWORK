@@ -267,7 +267,7 @@ letter-spacing: 0em;
 text-align: center;
 font-family: 'Open Sans', sans-serif;
 position: relative;
-top: 80px;
+top: 90px;
    }
    .next img{
 width: 64px;
@@ -281,13 +281,13 @@ top: 40px;
     background: rgba(204, 68, 56, 1);
     color:#fff;
     position:fixed;
-    top:590px;
+    top:600px;
     left: 30.5px;
     width: 303px;
     z-index:100;
     font-size: 16px;
     padding: 12px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 15px;
     height: 47px;
     border: 1px solid rgba(204, 68, 56, 1);
@@ -298,5 +298,15 @@ top: 40px;
     background:transparent;
     color: rgba(204, 68, 56, 1) ;
   }
+.next h4{
+  position: relative;
+  top: 140px;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
 
+}
     }

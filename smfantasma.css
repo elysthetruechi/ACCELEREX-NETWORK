@@ -182,13 +182,13 @@
         background: rgba(204, 68, 56, 1);
         color:#fff;
         position:fixed;
-        top:630px;
-        left: 30.5px;
+        top:620px;
+        left: 29px;
         width: 303px;
         z-index:100;
         font-size: 16px;
         padding: 12px 20px;
-        border-radius: 5px;
+        border-radius: 8px;
         margin-top: 15px;
         height: 47px;
         border: 1px solid rgba(204, 68, 56, 1);

@@ -398,4 +398,11 @@
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
+.brow{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  right: 3px;
+  top: 17px;
+}
 }

@@ -173,9 +173,10 @@ display: flex;
 display:flex;
 width: 60px;
 height: 60px;
-margin: 23px;
+margin: 22px;
+font-family: 'Open Sans', sans-serif;
 background: rgba(242, 96, 93, 0.04);
-border: 1px solid transparent;
+border: 1px solid red;
 border-radius: 50px;
 
 justify-content: center;
@@ -186,7 +187,7 @@ align-items: center;
     display:flex;
     width: 60px;
     height: 60px;
-    margin: 25px;
+    margin: 22px;
     border: 1px solid transparent;
     border-radius: 50px;
     justify-content: center;
@@ -204,7 +205,7 @@ align-items: center;
     }
     .rest a {
       position: fixed;
-      top: 680px;
+      top: 670px;
       left: 70px;
       font-size: 14px;
       color: black;

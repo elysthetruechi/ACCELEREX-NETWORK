@@ -179,8 +179,8 @@
       width:90px;
     }
     .box img{
-      width: 18.83px;
-      height: 18.83px;
+      width: 21.83px;
+      height: 21.83px;
       top: 1.67px;
       left: 2.08px;
     }
@@ -231,15 +231,15 @@
     }
     .eight{
     position: relative;
-      top: 359px;
+      top: 370px;
       height: 60px;
       left: 5px;
     }
 .drake{
-padding-bottom: 8px;
 position:fixed;
 width: 700px;
-border-bottom: 1px solid grey;
+margin-bottom:15px;
+border-bottom:1px solid rgba(0, 0, 0, 0.05);
 }
 .drake h3{
 position: relative;
@@ -298,7 +298,7 @@ font-family: 'Open Sans', sans-serif;
 width:398px;
 height: 75px;
 position: fixed;
-top: 640px;
+top: 648px;
 border: 2px solid transparent;
 border-radius: 7px;
 background:rgba(255, 255, 255, 1);
@@ -352,6 +352,7 @@ font-size: 11px;
 color: rgba(32, 14, 50, 1);
 
 }
+
 .spirit{
     width: 314px;
     height: 136px;
