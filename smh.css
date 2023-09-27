@@ -1,0 +1,299 @@
+@media (max-width: 420px) {
+    body {
+        background: white;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .max-width {
+    max-width: 1240px;
+    padding:0;
+    margin: 0;
+      }
+      section {
+        padding: 20px 0;
+      }
+      .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 10px 0;
+        transition: all 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar.sticky {
+        padding: 30px 0;
+        background:black;
+      }
+      .navbar .logo a {
+        position: relative;
+        left:80px ;
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        transition: color 0.5s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .navbar .menu li {
+        position: relative;
+        right: 5px;
+        list-style: none;
+        display: inline-block;
+      }
+      .navbar .menu .date li a {
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 25px;
+        padding-left: 20px;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .date li a i{
+        color: black;
+      position: relative;
+      right:38px;
+      font-size: 18px;
+      }
+      .navbar .menu .oth li a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:297px;
+        bottom: 20px;
+        font-weight: 700;
+        transition: color 0.3s ease;
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar .menu .oth li a i{
+        color: black;
+        display: flex;
+        font-size: 15px;
+        margin: 1px;
+        font-weight: 800;
+        justify-content: space-between;
+      }
+    
+      .navbar .menu li a:hover,
+      .navbar .logo a:hover {
+        color:#029dd1;
+      }
+      .menu-btn {
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+      }
+      .click{
+        width: 38px;
+        height: 38px;
+        position: relative;
+        top: 60px;
+        left: 30px; 
+        transition: all 0.5s ease;
+      }
+      .big h4{
+    width: 207px;;
+    height: 30px;
+    top: 25px;
+    left: 120px;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    line-height: 30.33px;
+    font-family: 'Open Sans', sans-serif;
+      }
+      .seun{
+    text-align: center;
+    margin-top: 60px;
+      }
+      .seun h4{
+font-family: 'Open Sans', sans-serif;        
+font-size: 16px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+font-weight: 600;
+color:rgba(0, 0, 0, 1) ;
+      }
+      .seun p{
+font-size: 16px;
+font-weight: 400;
+line-height: 9px;
+position: relative;
+bottom: 6px;
+letter-spacing: 0em;
+text-align: center;
+font-family: 'Open Sans', sans-serif; 
+color: rgba(68, 68, 68, 0.7); 
+      }
+      .amount{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .amount p{
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+font-family: 'Open Sans', sans-serif; 
+color: rgba(51, 51, 51, 0.7);
+      }
+      .amount h4{
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(17, 17, 17, 1);
+font-family: 'Open Sans', sans-serif; 
+      }
+      .future{
+        width: 325px;
+        height: 156px;
+        top: 380px;
+        position: fixed;
+        left: 18px;
+        border-radius: 4px;
+        border: 1.5px dotted rgba(242, 96, 93, 1); 
+         background: rgba(242, 96, 93, 0.07);
+      }
+      .future .dupe{
+        position: relative;
+        left: 10px;
+        top: 20px;
+      }
+      .future .dupe p{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+font-family: 'Open Sans', sans-serif; 
+color: rgba(67, 67, 67, 0.7);
+      }
+      .future .dupe p span{
+        font-size: 14px;
+        position: relative;
+        left: 150px;
+        font-family: 'Open Sans', sans-serif;
+      } 
+      
+      .future .dupe p span1{
+        font-size: 14px;
+        position: relative;
+        left: 100px;
+        font-family: 'Open Sans', sans-serif;
+      } 
+      .future .dupe h4{
+ color: rgba(67, 67, 67, 1);
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+font-family: 'Open Sans', sans-serif;
+      }
+      .future .dupe h4 span{
+        position: relative;
+        left: 149px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .future .dupe h4 span1{
+        font-weight: 600;
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        left: 175px;
+      }
+      .small-checkbox-container {
+        display: block;
+        position: relative;
+        padding-left: 20px; 
+        margin-bottom: 10px; 
+        top: 230px;
+        left: 20px;
+        cursor: pointer;
+        font-size: 14px; 
+        color:rgba(4, 78, 139, 1);
+        font-family: 'Open Sans', sans-serif;
+    }
+   
+    .small-checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    
+    .small-checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 18px; 
+        width: 18px; 
+        border: 1px solid rgba(4, 78, 139, 1);
+        background-color: transparent; 
+        border-radius: 4px; 
+    }
+    
+    .small-checkbox-container input:checked + .small-checkmark {
+        background-color:rgba(4, 78, 139, 1); 
+    }
+    
+    .small-checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    .small-checkbox-container input:checked + .small-checkmark:after {
+        display: block;
+    }
+    .small-checkbox-container input:checked + .small-checkmark:after {
+        left: 4px; /* Adjust the position of the tick */
+    }
+    .middle a{
+        display:block;
+        text-align: center;
+        background: rgba(204, 68, 56, 1);
+        color:#fff;
+        position:fixed;
+        top:620px;
+        left: 28px;
+        width: 303px;
+        z-index:100;
+        font-size: 15px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin-top: 15px;
+        height: 47px;
+        border: 1px solid rgba(204, 68, 56, 1);
+        transition: all 0.3s ease;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .middle a:hover{
+        background:transparent;
+        color: rgba(204, 68, 56, 1) ;
+      }
+      .fantasma{
+        position: fixed;
+      }
+      .good{
+        position: fixed;
+        z-index:100;
+        top: 310px;
+        left: 130px;
+      }
+}
